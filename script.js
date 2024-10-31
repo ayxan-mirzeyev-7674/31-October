@@ -1,4 +1,4 @@
-let string = prompt("Enter string: ");
+let string = "S";
 
 console.log("Length of string: " + string.length);
 console.log("String includes 'e'?: " + string.includes("e"));
@@ -10,4 +10,4 @@ console.log(
 
 let product = String(12345 * 98765);
 
-console.log("6th digit of 12345 * 98765: " + product[6]);
+console.log("6th digit of 12345 * 98765: " + product[5]);
